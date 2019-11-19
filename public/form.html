@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
+	<link rel="stylesheet" href="form.css">
 	<meta charset='UTF-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	<meta http-equiv='X-US-Compatible' content='ie=edge'>
 	<title>Submit Form</title>
 </head>
 <body>
-	<form action='/submit' method='GET'>
+	<form action='/submit' method='GET' class="formContainer">
 
 		<label for='title'>Title</label>
 		<input type='text' name='title' placeholder='Enter a title' />
-
+		<br>
+		<br>
 		<label for='text'>Text</label>
 		<input type='text' name='text' placeholder='Enter a text' />
-
+		<br>
+		<br>
 		<label for='author'>Author</label>
 		<input type='text' name='author' placeholder='Enter a author' />
-
-		<input type='submit' value='submit' />
+		<br>
+		<br>
+		<input type='submit' value='submit' class="btn"/>
 
 	</form>
 </body>
